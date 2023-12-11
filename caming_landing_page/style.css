@@ -1,0 +1,123 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    color: #fff;
+}
+
+/* THIS IS MY WEB NAV CSS */
+
+nav {
+    text-align: center;
+    background-color: #6ab3c0;
+    padding: 59px 0 70px 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 53px;
+    font-family: 'Rakkas', serif;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 100px;
+
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #6ab3c0;
+    transition: 0.5s;
+    padding: 68px 60px 60px;
+}
+
+
+
+/* This is my main div */
+
+.main {
+    display: flex;
+    background-color: #15171e;
+    justify-content: space-between;
+}
+
+.text {
+    padding: 368px 0 0 343px;
+
+}
+
+.text h1 {
+    font-family: 'Rakkas', serif;
+    font-size: 198.62px;
+    padding-bottom: 70px;
+    color: #6ab3c0;
+}
+
+.text p {
+    font-size: 51.06px;
+    font-family: 'Rakkas', serif;
+    padding-bottom: 80px;
+
+}
+
+.read {
+    padding: 30px 100px;
+    background-color: #b46c35;
+    font-size: 43.08px;
+    font-family: 'Rakkas', serif;
+    color: #fff;
+    border: none;
+    margin-bottom: 360px;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.read:hover {
+    background-color: #b46c3532;
+    transition: 0.5s;
+    border-bottom: 1px solid #fff;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #6ab3c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    padding: 50px 348px 33px;
+}
+
+.copyright h1 {
+    font-size: 45.38px;
+    font-family: 'Rakkas', serif;
+    letter-spacing: 12px;
+}
+
+.socialmidia {
+    padding-right: 100px;
+
+}
+
+.socialmidia img {
+    margin: 10px;
+}
+
+
+
+THANKS FOR WATHING PLEASE LIKE AND SUBSCRIBE BYE
